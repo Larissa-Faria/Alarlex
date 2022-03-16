@@ -197,3 +197,6 @@ top: 2036.92px;
 .redessociais{
     flex-direction: column;
 }
+.icons_sociais {
+    justify-content: flex-end;
+}
