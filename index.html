@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alarlex</title>
     <link rel="stylesheet" href="scr/css/style.css">
-    <script src="https://kit.fontawesome.com/80a33ce4c2.js" crossorigin="anonymous"></script>    
-
+    <script src="https://kit.fontawesome.com/80a33ce4c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="scr/css/bootstrap.min.css">
 </head>
+
 <body class=" wrapper container">
     <div class="container-menu">
         <header>
             <nav class="wrapper flex">
                 <img src="scr/img/logo_alarlex_cinza.jpg" alt="">
-                <div class="links_menu ">
-                    <a href="#servicos"><p>Serviços</p></a>
+                <div class="links_menu flex ">
+                    <a href="#servicos">Serviços</a>
                     <a href="#portifolio">Portifólio</a>
                     <a href="">Orçamento</a>
-                    <a href="">Fale Conosco</a>
-                    <a href="">Aplicativo</a>
+                    <a href="#faleconosco">Fale Conosco</a>
+                    <a href="#aplicativo">Aplicativo</a>
                 </div>
             </nav>
         </header>
@@ -29,23 +31,25 @@
             <h1>Diferenciais do monitoramento da Alarlex</h1>
             <div class="cards_diferenciais flex ">
                 <div class="card_diferencial flex">
-                    <i class="fa-solid fa-headset"></i>                    
+                    <i class="fa-solid fa-headset"></i>
                     <h2>Atendimento 24 horas</h2>
-                    <p>Não importa a hora do dia, após a sinalização de qualquer ocorrência a nossa equipe técnica vai ao local para a verificação do imóvel.</p>
+                    <p>Não importa a hora do dia, após a sinalização de qualquer ocorrência a nossa equipe técnica vai
+                        ao local para a verificação do imóvel.</p>
                 </div>
                 <div class="card_diferencial flex">
-                    <i class="fa-solid fa-wrench"></i>                    
+                    <i class="fa-solid fa-wrench"></i>
                     <h2>Manutenção técnica</h2>
-                    <p>Para assegurar a eficiência do sistema de segurança todos os equipamentos são submetidos a manutenção técnica quando necessário.</p>
+                    <p>Para assegurar a eficiência do sistema de segurança todos os equipamentos são submetidos a
+                        manutenção técnica quando necessário.</p>
                 </div>
                 <div class="card_diferencial flex">
-                    <i class="fa-solid fa-mobile-screen-button"></i>                 
+                    <i class="fa-solid fa-mobile-screen-button"></i>
                     <h2>Aplicativo para mobile</h2>
                     <p>Aplicativo mobile de segurança e monitoramento de seu patrimônio.</p>
                 </div>
             </div>
         </section>
-        <section class="servicos">
+        <section id="servicos" class="servicos">
             <h2 class="titulo">Serviços</h2>
             <div class=" flex cards_servicos">
                 <div class="card_cerca">
@@ -62,15 +66,16 @@
                 </div>
             </div>
         </section>
-        <section class="portifolio">
+        <section id="portifolio" class="portifolio">
             <div class=" flex cards_portifolio">
                 <div class="card_portifolio_text">
                     <h2 class="titulo">Portifólio</h2>
-                    <p class="paragrafo_portifolio">Conheça alguns de nossos trabalhos.</p>   
+                    <p class="paragrafo_portifolio">Conheça alguns de nossos trabalhos.</p>
                     <div class="btn">
-                        <button>Veja mais</button>
-                        <img src="scr/img/Video.png" alt="">            
-                    </div> 
+                        <a href="https://www.facebook.com/alarlex/" class="text-white" target="blanck"><button>Veja
+                                mais</button></a>
+                        <img src="scr/img/Video.png" alt="">
+                    </div>
                 </div>
                 <div class="card_img1_portifolio">
                     <img src="scr/img/image 6.png" alt="">
@@ -80,15 +85,17 @@
                 </div>
             </div>
         </section>
-        <section class="app">
+        <section id="aplicativo" class="app">
             <div class="cards_app ">
                 <div class="card_app_text">
                     <h2 class="titulo"> O aplicativo</h2>
-                    <p class="paragrafo">Permite a vizualização de fotos da sua residencia ou negócio. Saiba o que está acontecendo através do aplicativo em qualquer lugar.</p>
+                    <p class="paragrafo">Permite a vizualização de fotos da sua residencia ou negócio. Saiba o que está
+                        acontecendo através do aplicativo em qualquer lugar.</p>
                     <div class="btn">
-                        <button>Mais informações</button>
-                        <img src="scr/img/Frame 88.png" alt="">            
-                    </div> 
+                        <a href="https://web.whatsapp.com/send?phone=551532232152" target="blanck"><button>Mais
+                                informações</button></a>
+                        <img src="scr/img/Frame 88.png" alt="">
+                    </div>
                 </div>
                 <div class="card_img_app flex">
                     <img src="scr/img/image.png" alt="">
@@ -96,28 +103,62 @@
             </div>
         </section>
     </main>
-    <footer class="flex">
-        <div class="pagamento flex">
-            <div class="icons_pag">
-                <i class="fa-brands fa-cc-visa"></i>
-                <i class="fa-brands fa-cc-mastercard"></i>
-                <i class="fa-brands fa-cc-paypal"></i>
+    <footer class="text-center text-white ">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class=" centered col-lg-3">
+                    <h5>Formas de pagamento</h5>
+                    <ul class="flex list-unstyled">
+                        <li>
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-cc-mastercard"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-cc-paypal"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-pix"></i>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class=" centered col-lg-3 ">
+                    <h5 id="faleconosco">Redes sociais</h5>
+                    <ul class=" flex list-unstyled">
+                        <li>
+                            <a href="#" target="blanck" class="text-white"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:alarlexalarmes@gmail.com" class="text-white" target="blanck"><i
+                                    class="fa-solid fa-envelope-circle-check"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://web.whatsapp.com/send?phone=551532232152" target="blanck"
+                                class="text-white"><i class="fa-brands fa-whatsapp"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/alarlex/" class="text-white" target="blanck"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
             </div>
+            <!--Grid row-->
         </div>
-        <div class="faleconosco flex">
-            <div class="icons_contato">
-                <i class="fa-solid fa-phone">(15) 3223-2152</i>
-                <i class="fa-brands fa-whatsapp">(15) 3223-2152</i>
-            </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="index.html">Alarlex</a>
         </div>
-        <div class="redessociais flex">
-            <div class="icons_sociais">
-                <i class="fa-solid fa-envelope-dot"></i>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-telegram"></i>
-            </div>
-        </div>
+        <!-- Copyright -->
     </footer>
 </body>
 
