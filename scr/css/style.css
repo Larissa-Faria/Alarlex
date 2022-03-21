@@ -55,6 +55,72 @@ nav img {
     transition: 1s;
 }
 
+.form-header-wrapper[data-v-7a34214f] {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1.1em;
+    margin-top: 1em;
+}
+
+.form.view .form-title[data-v-7a34214f] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 750px;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.question .question-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form.view .question .question-info .question-order {
+    top: 0 !important;
+}
+
+.question .question-info .question-order {
+    color: #ED4548 !important;
+}
+
+.question .question-info .question-title {
+    color: #FAFAFA !important;
+}
+
+.question .question-info .question-title {
+    font-weight: 500;
+    font-size: 1.14rem;
+}
+
+.question .question-info .editable-input {
+    display: block;
+    word-break: break-word;
+    min-height: 1em;
+}
+  
+
+.question .question-body .full {
+    display: flex;
+  }
+  .question .question-body .input-field, .question .question-body .select-wrapper {
+    flex-basis: 50%;
+    margin-right: .4em;
+    flex: 1;
+  }
+  .input-field[data-v-7b1c5daf] {
+    position: relative;
+  }
+  .view .question .question-body .input-field .f-input {
+  }
+  .question .question-body .input-field:not(.naked) .f-input {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(222, 222, 222, 0.56);
+
+  }
+  .view .question .question-body .input-field input {
+    color: #FFFFFF !important;}
 .banner {
     display: flex;
     flex-direction: column;
